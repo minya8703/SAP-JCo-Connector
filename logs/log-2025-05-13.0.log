@@ -1,0 +1,355 @@
+[INFO ] 15:41:09.192 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:41:09.232 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 11108 (D:\temp\JcoSapConnector\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JcoSapConnector\JCoSapRfcLink)
+[INFO ] 15:41:09.233 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:41:09.838 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:41:09.887 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+[INFO ] 15:41:10.322 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:41:10.331 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:41:10.331 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:41:10.331 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:41:10.422 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:41:10.423 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1157 ms
+[INFO ] 15:41:10.536 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:41:10.580 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:41:10.610 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:41:10.822 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:41:10.844 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:41:11.033 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7ef60c02
+[INFO ] 15:41:11.034 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:41:11.074 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:41:11.707 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:41:11.710 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:41:11.784 j.j.config.saprfc.SapRFCConnection - RFC Server Start
+[INFO ] 15:41:11.784 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버 시작 시도...
+[INFO ] 15:41:12.741 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버가 정상적으로 시작되었습니다.
+[WARN ] 15:41:12.774 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:41:13.063 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:41:13.087 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:41:13.093 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 4.341 seconds (process running for 6.104)
+[INFO ] 15:59:53.393 j.j.service.GetCorpStateService - Service handleRequest Start, 'GetCorpState'
+[DEBUG] 15:59:53.562 org.hibernate.SQL - 
+    select
+        gcs1_0.corp_biz_no,
+        gcs1_0.channel,
+        gcs1_0.clo_date,
+        gcs1_0.corp_state,
+        gcs1_0.created_at,
+        gcs1_0.err_code,
+        gcs1_0.err_msg,
+        gcs1_0.nts_date,
+        gcs1_0.rtn,
+        gcs1_0.tax_kind,
+        gcs1_0.tax_type,
+        gcs1_0.tax_type_nm,
+        gcs1_0.updated_at 
+    from
+        s_get_corp_state gcs1_0 
+    where
+        gcs1_0.corp_biz_no=?
+[INFO ] 16:01:35.151 jco.jcosaprfclink.utils.HttpUtil - ✅ 성공: 응답 코드 200
+[ERROR] 16:01:35.155 j.j.service.GetCorpStateService - 에러 오류 코드 : null
+[ERROR] 16:01:35.157 j.j.service.GetCorpStateService - java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+[INFO ] 16:02:08.760 j.j.service.GetCorpStateService - Service handleRequest Start, 'GetCorpState'
+[DEBUG] 16:02:08.761 org.hibernate.SQL - 
+    select
+        gcs1_0.corp_biz_no,
+        gcs1_0.channel,
+        gcs1_0.clo_date,
+        gcs1_0.corp_state,
+        gcs1_0.created_at,
+        gcs1_0.err_code,
+        gcs1_0.err_msg,
+        gcs1_0.nts_date,
+        gcs1_0.rtn,
+        gcs1_0.tax_kind,
+        gcs1_0.tax_type,
+        gcs1_0.tax_type_nm,
+        gcs1_0.updated_at 
+    from
+        s_get_corp_state gcs1_0 
+    where
+        gcs1_0.corp_biz_no=?
+[WARN ] 16:03:11.203 jco.jcosaprfclink.utils.HttpUtil - ❌ HTTP 요청 실패: Connection reset
+[INFO ] 16:10:56.676 o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 16:10:56.873 o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 16:10:56.880 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:10:56.882 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:10:56.887 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:14:38.427 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:14:38.463 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 10824 (D:\temp\JcoSapConnector\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JcoSapConnector\JCoSapRfcLink)
+[INFO ] 16:14:38.464 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:14:39.217 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:14:39.292 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
+[INFO ] 16:14:39.756 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:14:39.770 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:14:39.773 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:14:39.773 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:14:39.913 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:14:39.913 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1422 ms
+[INFO ] 16:14:40.049 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:14:40.106 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:14:40.151 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:14:40.423 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:14:40.461 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:14:40.783 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6c9151c1
+[INFO ] 16:14:40.785 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:14:40.841 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:14:41.770 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:14:41.773 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:14:41.803 j.j.config.saprfc.SapRFCConnection - RFC Server Start
+[INFO ] 16:14:41.803 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버 시작 시도...
+[INFO ] 16:14:42.638 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버가 정상적으로 시작되었습니다.
+[WARN ] 16:14:42.736 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:14:43.844 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:14:43.923 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:14:43.938 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 5.987 seconds (process running for 7.645)
+[INFO ] 16:28:49.232 j.j.service.GetCorpStateService - Service handleRequest Start, 'GetCorpState'
+[DEBUG] 16:28:49.264 org.hibernate.SQL - 
+    select
+        gcs1_0.corp_biz_no,
+        gcs1_0.channel,
+        gcs1_0.clo_date,
+        gcs1_0.corp_state,
+        gcs1_0.created_at,
+        gcs1_0.err_code,
+        gcs1_0.err_msg,
+        gcs1_0.nts_date,
+        gcs1_0.rtn,
+        gcs1_0.tax_kind,
+        gcs1_0.tax_type,
+        gcs1_0.tax_type_nm,
+        gcs1_0.updated_at 
+    from
+        s_get_corp_state gcs1_0 
+    where
+        gcs1_0.corp_biz_no=?
+[INFO ] 16:30:22.986 j.j.service.GetCorpStateService - Service handleRequest Start, 'GetCorpState'
+[DEBUG] 16:30:22.987 org.hibernate.SQL - 
+    select
+        gcs1_0.corp_biz_no,
+        gcs1_0.channel,
+        gcs1_0.clo_date,
+        gcs1_0.corp_state,
+        gcs1_0.created_at,
+        gcs1_0.err_code,
+        gcs1_0.err_msg,
+        gcs1_0.nts_date,
+        gcs1_0.rtn,
+        gcs1_0.tax_kind,
+        gcs1_0.tax_type,
+        gcs1_0.tax_type_nm,
+        gcs1_0.updated_at 
+    from
+        s_get_corp_state gcs1_0 
+    where
+        gcs1_0.corp_biz_no=?
+[INFO ] 16:30:30.424 jco.jcosaprfclink.utils.HttpUtil - ✅ 성공: 응답 코드 200
+[ERROR] 16:30:30.428 j.j.service.GetCorpStateService - 에러 오류 코드 : null
+[WARN ] 16:37:49.432 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m38s301ms641µs300ns).
+[INFO ] 16:37:49.432 jco.jcosaprfclink.utils.HttpUtil - ✅ 성공: 응답 코드 200
+[ERROR] 16:37:49.436 j.j.service.GetCorpStateService - 에러 오류 코드 : null
+[ERROR] 16:37:49.436 j.j.service.GetCorpStateService - java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+[ERROR] 16:37:49.437 j.j.service.GetCorpStateService - java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
+[INFO ] 16:37:50.021 o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 16:37:50.297 o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 16:37:50.305 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:37:50.308 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:37:50.317 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:38:07.324 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:38:07.366 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 25088 (D:\temp\JcoSapConnector\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JcoSapConnector\JCoSapRfcLink)
+[INFO ] 16:38:07.367 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:38:08.001 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:38:08.055 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+[INFO ] 16:38:08.549 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:38:08.562 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:38:08.564 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:38:08.565 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:38:08.650 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:38:08.650 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1252 ms
+[INFO ] 16:38:08.765 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:38:08.815 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:38:08.844 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:38:09.082 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:38:09.106 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:38:09.331 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6ab50d1c
+[INFO ] 16:38:09.334 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:38:09.406 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:38:10.182 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:38:10.184 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:38:10.199 j.j.config.saprfc.SapRFCConnection - RFC Server Start
+[INFO ] 16:38:10.199 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버 시작 시도...
+[INFO ] 16:38:10.606 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버가 정상적으로 시작되었습니다.
+[WARN ] 16:38:10.653 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:38:10.906 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:38:10.927 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:38:10.933 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 4.034 seconds (process running for 5.763)
+[INFO ] 16:39:12.319 j.j.service.GetCorpStateService - Service handleRequest Start, 'GetCorpState'
+[DEBUG] 16:39:12.358 org.hibernate.SQL - 
+    select
+        gcs1_0.corp_biz_no,
+        gcs1_0.channel,
+        gcs1_0.clo_date,
+        gcs1_0.corp_state,
+        gcs1_0.created_at,
+        gcs1_0.err_code,
+        gcs1_0.err_msg,
+        gcs1_0.nts_date,
+        gcs1_0.rtn,
+        gcs1_0.tax_kind,
+        gcs1_0.tax_type,
+        gcs1_0.tax_type_nm,
+        gcs1_0.updated_at 
+    from
+        s_get_corp_state gcs1_0 
+    where
+        gcs1_0.corp_biz_no=?
+[INFO ] 16:40:52.994 jco.jcosaprfclink.utils.HttpUtil - ✅ 성공: 응답 코드 200
+[ERROR] 16:40:52.998 j.j.service.GetCorpStateService - 에러 오류 코드 : null
+[INFO ] 16:40:52.998 j.j.service.GetCorpStateService - |---|----------|-----------|-----------------------------------|----|-|--------|--------|-----------|----------------------------------------------------------------------------------------------------|------------|--------|------|------------|--------|------|
+| TABLE 'ZTAXT008'
+|---|----------|-----------|-----------------------------------|----|-|--------|--------|-----------|----------------------------------------------------------------------------------------------------|------------|--------|------|------------|--------|------|
+|MAN|KUNNR     |STCD2      |NAME1                              |ZTAT|Z|ZCLDA   |ZNTDA   |ZCODE      |ZMESSAGE                                                                                            |ERNAM       |ERDAT   |ERZET |AENAM       |AEDAT   |AEZET |
+|---|----------|-----------|-----------------------------------|----|-|--------|--------|-----------|----------------------------------------------------------------------------------------------------|------------|--------|------|------------|--------|------|
+|012|3456789012|34567890123|45678901234567890123456789012345678|9012|3|45678901|23456789|01234567890|1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890|123456789012|34567890|123456|789012345678|90123456|789012|
+|---|----------|-----------|-----------------------------------|----|-|--------|--------|-----------|----------------------------------------------------------------------------------------------------|------------|--------|------|------------|--------|------|
+|   |          |1338122865 |                                   |    | |00000000|00000000|           |                                                                                                    |            |00000000|000000|            |00000000|000000|
+|---|----------|-----------|-----------------------------------|----|-|--------|--------|-----------|----------------------------------------------------------------------------------------------------|------------|--------|------|------------|--------|------|
+
+[INFO ] 16:40:52.999 j.j.service.GetCorpStateService - Service handleRequest End, 'GetCorpState'
+[INFO ] 16:47:20.639 o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 16:47:20.770 o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 16:47:20.772 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:47:20.773 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:47:20.778 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 17:03:16.068 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:03:16.126 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 16272 (D:\temp\JcoSapConnector\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JcoSapConnector\JCoSapRfcLink)
+[INFO ] 17:03:16.127 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:03:17.548 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:03:17.743 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 187 ms. Found 1 JPA repository interface.
+[INFO ] 17:03:18.403 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:03:18.416 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:03:18.418 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:03:18.418 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:03:18.925 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:03:18.926 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2760 ms
+[INFO ] 17:03:19.113 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:03:19.197 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:03:19.240 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:03:19.630 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:03:19.666 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:03:19.997 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4af7ac25
+[INFO ] 17:03:20.012 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:03:20.075 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:03:21.081 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:03:21.097 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:03:21.144 j.j.config.saprfc.SapRFCConnection - RFC Server Start
+[INFO ] 17:03:21.144 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버 시작 시도...
+[INFO ] 17:03:21.929 j.j.c.saprfc.JCoConnectionManager - SAP RFC 서버가 정상적으로 시작되었습니다.
+[WARN ] 17:03:22.005 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:03:22.489 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:03:22.536 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:03:22.552 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 7.081 seconds (process running for 20.476)
+[INFO ] 17:09:44.370 j.j.service.TaxInvoiceStateService - Service handleRequest, 'taxinvoiceState'
+[DEBUG] 17:09:44.431 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 17:09:44.737 org.hibernate.SQL - 
+    update
+        s_state_taxinvoice 
+    set
+        corp_biz_no=?,
+        err_code=?,
+        err_msg=?,
+        result=?,
+        updated_at=?,
+        user_id=? 
+    where
+        mgrdoc_no=?
+[INFO ] 17:09:45.685 jco.jcosaprfclink.utils.HttpUtil - ✅ 성공: 응답 코드 200
+[DEBUG] 17:09:45.690 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 17:09:45.692 org.hibernate.SQL - 
+    update
+        s_state_taxinvoice 
+    set
+        corp_biz_no=?,
+        err_code=?,
+        err_msg=?,
+        result=?,
+        user_id=? 
+    where
+        mgrdoc_no=?
+[INFO ] 17:09:45.695 j.j.service.TaxInvoiceStateService - |----------|--------------------------------------------------|------------------------------------|--------|--------|------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--|------------------------------|--------|------|------------|--------|
+| TABLE 'ZTAXT020S'
+|----------|--------------------------------------------------|------------------------------------|--------|--------|------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--|------------------------------|--------|------|------------|--------|
+|CORP_BIZ_N|USER_ID                                           |MGR_DOC_NO                          |ISSUE_DD|SEND_DD |APPR_NO                 |ERR_CODE            |ERR_MSG                                                                                                                                                                                                 |RESULT    |DO|DOC_STATE_NM                  |SEND_DAT|SEND_T|SEND_USER   |MLDDT_BS|
+|----------|--------------------------------------------------|------------------------------------|--------|--------|------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--|------------------------------|--------|------|------------|--------|
+|0123456789|01234567890123456789012345678901234567890123456789|012345678901234567890123456789012345|67890123|45678901|234567890123456789012345|67890123456789012345|67890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345|6789012345|67|890123456789012345678901234567|89012345|678901|234567890123|45678901|
+|----------|--------------------------------------------------|------------------------------------|--------|--------|------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--|------------------------------|--------|------|------------|--------|
+|1338122865|hanssem01                                         |XS0120248200003498                  |        |20241225|2024122041000021a0000001|KH_COM_0000         |세금계산서 조회 완료                                                                                                                                                                                             |SUCCESS   |31|신고완료                          |        |      |            |20241220|
+|----------|--------------------------------------------------|------------------------------------|--------|--------|------------------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|--|------------------------------|--------|------|------------|--------|
+
+[INFO ] 17:09:45.695 j.j.service.TaxInvoiceStateService - Service handleRequest, 'taxinvoiceState'
+[INFO ] 17:09:45.696 j.j.config.aop.TimeTraceAspect - TaxInvoiceStateService.taxinvoiceState(..) - Total time = 1.3248898s
+[INFO ] 17:09:45.696 j.j.config.aop.TimeTraceAspect - TaxInvoiceStateController.handleRequest(..) - Total time = 1.3258216s

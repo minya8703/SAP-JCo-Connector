@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: saprfcwebserver
+  profiles:
+    active: test-local
+  output:
+    ansi:
+      enabled: always
+  task:
+    execution:
+      pool:
+        core-size: 5
+        max-size: 5
+        queue-capacity: 5
+        keep-alive: 30s
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/saprfc_callinfo
+    username: root
+    password: skfls123$%^
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+    properties:
+      hibernate:
+        column_ordering_strategy: legacy
+        format_sql: true
+        default_batch_fetch_size: 1000 #??? ??
+    defer-datasource-initialization: true
+  sql:
+    init:
+      mode: embedded
+logging.level:
+  org.hibernate.SQL: debug
