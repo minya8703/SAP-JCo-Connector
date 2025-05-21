@@ -1,5 +1,6 @@
 sap:
   connect:
+    # 기본 연결 설정
     host: 192.168.110.203
     sysnr: 00
     client: 300
@@ -7,15 +8,16 @@ sap:
     passwd: rfcpbill
     lang: KO
     
-# Server
-jco:
-  server:
-    connection_count: 2
-    progid: QH_SED
-    repository_destination: ABAP_AS_WITHOUT_POOL
-    gwserv: sapgw00
-    gwhost: 192.168.110.203
-    thread_count : 5
+    # 서버 설정
+    serverName: SERVER
+    gatewayHost: 192.168.110.203
+    gatewayService: sapgw00
+    programId: QH_SED
+    connectionCount: 2
+    threadCount: 5
+    
+    # Repository 설정
+    repositoryDestination: ABAP_AS_WITHOUT_POOL
 
 api:
   dev_url: http://localhost:8088

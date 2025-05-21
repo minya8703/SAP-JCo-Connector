@@ -1,0 +1,692 @@
+[INFO ] 13:07:59.243 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 13:07:59.297 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 2104 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 13:07:59.297 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 13:08:03.821 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 13:08:03.913 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+[INFO ] 13:08:04.603 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 13:08:04.621 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 13:08:04.622 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 13:08:04.623 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 13:08:41.610 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 13:08:41.611 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 42278 ms
+[INFO ] 13:08:41.799 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 13:08:41.975 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 13:08:42.019 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 13:08:42.474 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 13:08:42.527 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 13:08:45.169 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@19e801b5
+[INFO ] 13:08:45.171 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 13:08:45.311 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 13:08:46.739 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 13:08:46.744 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 13:08:47.589 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤Ñ Ï¥àÍ∏∞Ìôî ÏãúÏûë
+[INFO ] 13:08:55.002 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë
+[INFO ] 13:08:55.002 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 13:08:55.006 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤ÑÍ∞Ä ÏÑ±Í≥µÏ†ÅÏúºÎ°ú ÏãúÏûëÎêòÏóàÏäµÎãàÎã§. Program ID: QH_SED
+[WARN ] 13:08:55.058 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 13:08:55.337 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 13:08:55.366 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 13:08:55.371 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 57.741 seconds (process running for 61.836)
+[INFO ] 13:47:23.790 o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 13:47:23.917 o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 13:47:24.068 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 13:47:24.070 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 13:47:24.074 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:08:01.286 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 14:08:01.403 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 13900 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 14:08:01.408 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 14:08:03.508 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:08:03.743 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 216 ms. Found 2 JPA repository interfaces.
+[INFO ] 14:08:04.901 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 14:08:04.925 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:08:04.928 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:08:04.929 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 14:08:05.093 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:08:05.094 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3594 ms
+[INFO ] 14:08:05.499 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 14:08:05.648 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 14:08:05.758 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 14:08:06.417 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 14:08:06.509 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:08:07.827 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2f75a9b1
+[INFO ] 14:08:07.830 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:08:07.926 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 14:08:09.604 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 14:08:09.610 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:08:10.274 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 14:08:10.936 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 14:08:10.937 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 14:08:10.951 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 14:08:11.062 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:08:12.004 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:08:12.044 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 14:08:12.060 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 12.043 seconds (process running for 15.043)
+[INFO ] 14:21:17.393 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 14:21:17.520 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 17492 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 14:21:17.524 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 14:21:19.114 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:21:19.261 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 129 ms. Found 2 JPA repository interfaces.
+[INFO ] 14:21:20.285 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 14:21:20.304 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:21:20.308 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:21:20.309 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 14:21:20.458 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:21:20.459 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2855 ms
+[INFO ] 14:21:20.721 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 14:21:20.835 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 14:21:20.903 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 14:21:21.475 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 14:21:21.552 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:21:22.014 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@42b43a6
+[INFO ] 14:21:22.018 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:21:22.128 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 14:21:23.103 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 14:21:23.107 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:21:23.637 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 14:21:24.002 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 14:21:24.003 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 14:21:24.009 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 14:21:24.084 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:21:24.670 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:21:24.703 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 14:21:24.716 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.468 seconds (process running for 11.006)
+[INFO ] 15:03:14.448 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:03:14.553 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 27192 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:03:14.556 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:03:16.642 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:03:16.839 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 177 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:03:18.012 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:03:18.032 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:03:18.036 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:03:18.037 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:03:18.208 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:03:18.209 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3565 ms
+[INFO ] 15:03:18.555 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:03:18.700 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:03:18.776 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:03:19.299 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:03:19.361 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:03:19.809 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@72e75786
+[INFO ] 15:03:19.813 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:03:19.944 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:03:21.329 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:03:21.333 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:03:22.065 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:03:22.723 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 15:03:22.724 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 15:03:22.737 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:03:22.853 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:03:23.936 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:03:23.982 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:03:24.003 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 10.705 seconds (process running for 13.66)
+[INFO ] 15:13:13.576 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:13:13.666 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 12900 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:13:13.669 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:13:15.307 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:13:15.488 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 166 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:13:16.494 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:13:16.511 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:13:16.515 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:13:16.516 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:13:16.666 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:13:16.667 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2927 ms
+[INFO ] 15:13:16.974 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:13:17.082 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:13:17.144 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:13:17.536 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:13:17.591 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:13:18.438 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@688d619c
+[INFO ] 15:13:18.440 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:13:18.506 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:13:19.560 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:13:19.564 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:13:20.159 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:13:20.497 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 15:13:20.498 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 15:13:20.506 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:13:20.603 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:13:21.283 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:13:21.313 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:13:21.328 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.54 seconds (process running for 11.533)
+[INFO ] 15:24:40.286 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:24:40.382 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 7596 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:24:40.385 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:24:41.748 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:24:41.857 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:24:42.967 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:24:42.986 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:24:42.990 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:24:42.991 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:24:43.154 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:24:43.155 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2698 ms
+[INFO ] 15:24:43.453 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:24:43.580 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:24:43.649 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:24:44.130 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:24:44.184 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:24:44.561 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@12be4f83
+[INFO ] 15:24:44.564 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:24:44.686 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:24:45.688 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:24:45.691 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:24:46.229 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:24:46.628 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 15:24:46.629 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 15:24:46.640 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:24:46.734 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:24:47.297 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:24:47.328 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:24:47.342 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.004 seconds (process running for 11.0)
+[INFO ] 15:57:59.746 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:57:59.799 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 26520 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:57:59.826 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:58:06.051 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:58:06.195 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 127 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:58:07.257 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:58:07.281 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:58:07.318 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:58:07.319 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:58:07.486 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:58:07.488 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7610 ms
+[INFO ] 15:58:08.036 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:58:08.212 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:58:08.311 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:58:09.076 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:58:09.146 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:58:15.014 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@556aed22
+[INFO ] 15:58:15.019 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:58:15.334 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:58:17.468 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:58:17.473 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:58:19.327 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:58:21.434 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 15:58:21.435 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 15:58:21.466 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:58:21.557 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:58:22.243 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 15:58:22.254 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 15:58:22.258 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:58:22.261 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 15:58:22.268 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 15:58:22.288 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 15:58:22.315 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 16:00:43.925 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:00:44.059 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 1644 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:00:44.062 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:00:46.305 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:00:46.588 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 260 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:00:48.067 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:00:48.090 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:00:48.094 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:00:48.095 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:00:48.316 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:00:48.318 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4166 ms
+[INFO ] 16:00:48.706 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:00:48.819 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:00:48.887 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:00:49.543 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:00:49.632 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:00:51.386 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@11adab6d
+[INFO ] 16:00:51.391 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:00:51.509 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:00:53.060 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:00:53.068 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:00:53.772 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:00:54.329 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:00:54.330 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:00:54.347 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:00:54.502 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:00:55.437 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 16:00:55.457 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 16:00:55.461 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:00:55.465 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:00:55.482 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:00:55.514 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 16:00:55.586 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 16:05:27.900 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:05:28.014 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 7068 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:05:28.017 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:05:29.403 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:05:29.625 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:05:30.688 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:05:30.706 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:05:30.710 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:05:30.712 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:05:30.883 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:05:30.884 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2797 ms
+[INFO ] 16:05:31.149 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:05:31.245 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:05:31.311 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:05:31.906 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:05:31.984 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:05:32.359 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@45b27ad3
+[INFO ] 16:05:32.361 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:05:32.460 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:05:33.508 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:05:33.512 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:05:34.027 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:05:34.290 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:05:34.290 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:05:34.297 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:05:34.385 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:05:35.197 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 16:05:35.210 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 16:05:35.214 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:05:35.218 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:05:35.226 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:05:35.248 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 16:05:35.284 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 16:14:45.210 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:14:45.297 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 25924 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:14:45.300 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:14:46.543 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:14:46.653 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:14:47.464 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:14:47.483 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:14:47.487 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:14:47.488 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:14:47.628 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:14:47.629 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2259 ms
+[INFO ] 16:14:47.908 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:14:48.006 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:14:48.076 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:14:48.517 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:14:48.566 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:14:49.123 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1b69fc07
+[INFO ] 16:14:49.126 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:14:49.197 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:14:50.145 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:14:50.145 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:14:50.679 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:14:50.999 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:14:51.000 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:14:51.011 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:14:51.096 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:14:51.729 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:14:51.763 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:14:51.780 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 7.151 seconds (process running for 10.321)
+[INFO ] 16:24:58.203 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:24:58.307 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 8472 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:24:58.309 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:24:59.610 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:24:59.791 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 167 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:25:00.904 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:25:00.924 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:25:00.928 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:25:00.929 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:25:01.090 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:25:01.091 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2712 ms
+[INFO ] 16:25:01.456 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:25:01.541 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:25:01.606 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:25:02.090 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:25:02.155 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:25:02.516 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@11adab6d
+[INFO ] 16:25:02.519 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:25:02.588 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:25:03.489 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:25:03.493 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:25:03.947 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:25:04.433 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:25:04.434 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:25:04.440 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:25:04.523 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:25:05.287 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:25:05.341 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:25:05.358 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 7.919 seconds (process running for 11.396)
+[INFO ] 16:38:15.131 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:38:15.189 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 8804 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:38:15.190 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[WARN ] 16:38:15.531 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+[ERROR] 16:38:15.554 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'taxInvoiceStateHandler' for bean class [jco.jcosaprfclink.config.saprfc.connection.TaxInvoiceStateHandler] conflicts with existing, non-compatible bean definition of same name and class [jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172)
+	... 13 common frames omitted
+[INFO ] 16:38:24.988 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:38:25.027 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 25540 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:38:25.028 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[WARN ] 16:38:25.383 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+[ERROR] 16:38:25.398 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'taxInvoiceStateHandler' for bean class [jco.jcosaprfclink.config.saprfc.connection.TaxInvoiceStateHandler] conflicts with existing, non-compatible bean definition of same name and class [jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172)
+	... 13 common frames omitted
+[INFO ] 16:44:17.310 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:44:17.451 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 12484 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:44:17.454 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[WARN ] 16:44:18.408 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+[ERROR] 16:44:18.459 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'taxInvoiceStateHandler' for bean class [jco.jcosaprfclink.config.saprfc.connection.TaxInvoiceStateHandler] conflicts with existing, non-compatible bean definition of same name and class [jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172)
+	... 13 common frames omitted
+[INFO ] 16:46:31.661 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:46:31.787 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 15108 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:46:31.787 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:46:33.535 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:46:33.688 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:46:34.700 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:46:34.718 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:46:34.718 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:46:34.718 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:46:34.896 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:46:34.896 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3008 ms
+[INFO ] 16:46:35.220 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:46:35.348 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:46:35.427 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:46:35.952 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:46:36.024 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:46:36.568 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@9cc0505
+[INFO ] 16:46:36.568 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:46:36.654 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:46:37.617 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:46:37.617 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:46:38.265 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:46:38.677 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:46:38.677 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:46:38.677 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:46:38.750 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:46:39.350 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:46:39.366 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:46:39.387 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.535 seconds (process running for 12.341)
+[INFO ] 17:16:42.508 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:16:42.594 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 21908 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 17:16:42.597 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:16:44.239 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:16:44.397 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 140 ms. Found 2 JPA repository interfaces.
+[INFO ] 17:16:45.400 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:16:45.421 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:16:45.424 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:16:45.425 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:16:45.611 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:16:45.613 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2952 ms
+[INFO ] 17:16:45.879 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:16:46.001 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:16:46.066 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:16:46.477 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:16:46.540 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:16:47.034 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3e6acec2
+[INFO ] 17:16:47.038 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:16:47.147 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:16:48.044 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:16:48.047 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:16:48.555 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 17:16:48.909 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 17:16:48.910 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 17:16:48.924 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 17:16:49.014 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:16:49.770 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:16:49.809 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:16:49.827 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 7.957 seconds (process running for 9.792)
+[INFO ] 17:19:18.367 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:19:18.490 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 19848 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 17:19:18.493 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:19:19.994 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:19:20.152 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143 ms. Found 2 JPA repository interfaces.
+[INFO ] 17:19:21.036 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:19:21.054 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:19:21.057 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:19:21.058 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:19:21.178 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:19:21.179 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2604 ms
+[INFO ] 17:19:21.426 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:19:21.510 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:19:21.564 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:19:22.025 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:19:22.101 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:19:22.463 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@37c87fcc
+[INFO ] 17:19:22.466 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:19:22.574 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:19:23.633 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:19:23.636 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:19:24.185 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 17:19:24.549 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 17:19:24.550 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 17:19:24.560 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 17:19:24.636 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:19:25.342 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:19:25.387 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:19:25.403 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 7.925 seconds (process running for 11.839)
+[INFO ] 17:32:13.524 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:32:13.552 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 9668 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 17:32:13.552 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:32:14.381 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:32:14.430 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+[INFO ] 17:32:14.848 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:32:14.866 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:32:14.868 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:32:14.868 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:32:14.927 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:32:14.927 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1333 ms
+[INFO ] 17:32:15.036 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:32:15.101 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:32:15.132 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:32:15.373 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:32:15.404 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:32:15.693 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3359c3f6
+[INFO ] 17:32:15.694 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:32:15.773 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:32:16.585 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:32:16.589 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:32:16.943 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤Ñ Ï¥àÍ∏∞Ìôî ÏãúÏûë
+[INFO ] 17:32:53.360 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë
+[INFO ] 17:32:53.361 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 17:33:13.828 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤ÑÍ∞Ä ÏÑ±Í≥µÏ†ÅÏúºÎ°ú ÏãúÏûëÎêòÏóàÏäµÎãàÎã§. Program ID: QH_SED
+[WARN ] 17:33:33.325 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:33:33.604 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:33:33.624 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:33:33.630 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 80.49 seconds (process running for 81.858)
+[INFO ] 21:13:58.948 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 21:13:58.948 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 21:13:58.949 o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

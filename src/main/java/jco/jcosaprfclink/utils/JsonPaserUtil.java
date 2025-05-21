@@ -17,6 +17,8 @@ import java.util.stream.Collectors;
 @Slf4j
 public class JsonPaserUtil {
 
+    private static final JSONParser parser = new JSONParser();
+
     /**
      * Map을 JSONString으로 변환
      *
@@ -79,7 +81,6 @@ public class JsonPaserUtil {
 
         try {
 
-            JSONParser parser = new JSONParser();
             jsonArray = (JSONArray)parser.parse(str);
 
         } catch (ParseException e) {
@@ -115,10 +116,8 @@ public class JsonPaserUtil {
 
         JSONObject jsonObject = new JSONObject();
 
-        JSONParser jsonParser = new JSONParser();
-
         try {
-            jsonObject = (JSONObject) jsonParser.parse(jsonStr);
+            jsonObject = (JSONObject) parser.parse(jsonStr);
 
         } catch (ParseException e) {
             log.error("error : ", e);
@@ -179,5 +178,21 @@ public class JsonPaserUtil {
         return Arrays.stream(str.replace("{","").replace("}","").split(","))
                 .map(entry -> entry.split("="))
                 .collect(Collectors.toMap(entry -> entry[0].trim(), entry -> entry[1].trim()));
+    }
+
+    public static JSONArray getJsonArrayFromMapList(List<Map<String, Object>> mapList) {
+        JSONArray jsonArray = new JSONArray();
+        for (Map<String, Object> map : mapList) {
+            jsonArray.add(getJsonObjectFromMap(map));
+        }
+        return jsonArray;
+    }
+
+    public static String getStringFromJsonObject(JSONObject jsonObject) {
+        return jsonObject.toJSONString();
+    }
+
+    public static String getStringFromJsonArray(JSONArray jsonArray) {
+        return jsonArray.toJSONString();
     }
 }

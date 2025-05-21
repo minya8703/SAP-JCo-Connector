@@ -1,0 +1,1389 @@
+[INFO ] 08:43:11.761 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 08:43:11.913 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 3564 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 08:43:11.915 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 08:43:14.960 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 08:43:15.202 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 219 ms. Found 1 JPA repository interface.
+[INFO ] 08:43:16.945 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 08:43:16.975 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 08:43:16.979 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 08:43:16.980 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 08:43:17.410 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 08:43:17.411 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5347 ms
+[INFO ] 08:43:18.094 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 08:43:18.289 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 08:43:18.450 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 08:43:19.275 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 08:43:19.382 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 08:43:20.551 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3e5ebdfe
+[INFO ] 08:43:20.557 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 08:43:20.759 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 08:43:25.111 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 08:43:25.143 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 08:43:25.206 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 08:43:25.206 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 08:43:25.213 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 08:43:25.224 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 08:43:25.228 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 08:43:25.261 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 08:43:25.315 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'anotherHandler' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'anotherHandler' in your configuration.
+
+[INFO ] 09:07:02.785 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 09:07:02.831 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 3956 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 09:07:02.832 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[WARN ] 09:07:03.335 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+[ERROR] 09:07:03.353 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [jco.jcosaprfclink.JCoSapRfcLinkApplication]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:194)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:791)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:609)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'sapRfcConnectionProperties' for bean class [jco.jcosaprfclink.config.saprfc.properties.SapRfcConnectionProperties] conflicts with existing, non-compatible bean definition of same name and class [jco.jcosaprfclink.config.saprfc.connection.SapRfcConnectionProperties]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:361)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:288)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:346)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:281)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:204)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:172)
+	... 13 common frames omitted
+[INFO ] 09:16:45.497 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 09:16:45.611 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 25512 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 09:16:45.614 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 09:16:47.411 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 09:16:47.644 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 215 ms. Found 1 JPA repository interface.
+[INFO ] 09:16:48.955 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 09:16:48.980 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:16:48.983 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 09:16:48.984 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 09:16:49.208 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 09:16:49.209 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3513 ms
+[INFO ] 09:16:49.595 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 09:16:49.761 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 09:16:49.880 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 09:16:50.530 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 09:16:50.618 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 09:16:51.416 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@61d011e
+[INFO ] 09:16:51.419 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 09:16:51.521 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 09:16:52.979 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 09:16:52.988 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 09:16:53.040 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 09:16:53.042 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 09:16:53.047 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 09:16:53.058 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 09:16:53.062 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 09:16:53.083 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 09:16:53.127 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'anotherHandler' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'anotherHandler' in your configuration.
+
+[INFO ] 09:41:46.977 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 09:41:47.068 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 7100 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 09:41:47.071 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 09:41:49.123 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 09:41:49.361 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 215 ms. Found 1 JPA repository interface.
+[INFO ] 09:41:50.653 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 09:41:50.681 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:41:50.686 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 09:41:50.689 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 09:41:51.168 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 09:41:51.169 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4013 ms
+[INFO ] 09:41:51.635 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 09:41:51.780 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 09:41:51.871 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 09:41:52.619 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 09:41:52.735 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 09:41:53.280 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2d3b0978
+[INFO ] 09:41:53.285 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 09:41:53.429 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 09:41:54.991 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 09:41:54.996 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 09:41:55.805 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 09:41:56.737 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:41:56.805 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 09:41:56.824 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 11.01 seconds (process running for 14.333)
+[INFO ] 09:58:03.554 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 09:58:03.688 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 20732 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 09:58:03.692 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 09:58:05.654 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 09:58:05.820 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interface.
+[INFO ] 09:58:06.952 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 09:58:06.980 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:58:06.984 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 09:58:06.985 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 09:58:07.184 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 09:58:07.186 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3405 ms
+[INFO ] 09:58:07.539 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 09:58:07.668 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 09:58:07.748 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 09:58:08.291 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 09:58:08.358 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 09:58:09.089 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5fe3b058
+[INFO ] 09:58:09.092 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 09:58:09.174 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 09:58:10.419 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 09:58:10.424 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 09:58:11.126 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 09:58:12.113 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:58:12.209 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 09:58:12.228 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 10.129 seconds (process running for 14.494)
+[INFO ] 10:03:11.906 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:03:12.042 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 2044 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:03:12.048 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:03:13.909 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:03:14.191 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 261 ms. Found 1 JPA repository interface.
+[INFO ] 10:03:15.344 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:03:15.361 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:03:15.364 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:03:15.365 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:03:15.508 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:03:15.509 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3355 ms
+[INFO ] 10:03:15.775 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:03:15.866 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:03:15.934 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:03:16.364 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:03:16.417 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:03:16.822 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@336d28a1
+[INFO ] 10:03:16.825 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:03:16.897 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:03:17.863 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:03:17.869 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 10:03:18.343 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:03:18.957 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:03:18.998 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:03:19.011 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.554 seconds (process running for 12.967)
+[INFO ] 10:16:09.779 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:16:09.861 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 15380 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:16:09.862 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:16:11.291 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:16:11.406 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+[INFO ] 10:16:12.296 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:16:12.316 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:16:12.319 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:16:12.320 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:16:12.488 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:16:12.488 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2537 ms
+[INFO ] 10:16:12.723 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:16:12.821 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:16:12.877 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:16:13.314 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:16:13.373 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:16:14.236 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6a04d2a4
+[INFO ] 10:16:14.240 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:16:14.353 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:16:15.928 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:16:15.934 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 10:16:16.555 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:16:17.258 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:16:17.311 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:16:17.326 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.339 seconds (process running for 13.056)
+[INFO ] 10:43:43.048 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:43:43.111 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 13992 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:43:43.113 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:43:44.649 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:43:44.815 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
+[INFO ] 10:43:45.781 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:43:45.802 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:43:45.805 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:43:45.806 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:43:45.911 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:43:45.912 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2733 ms
+[INFO ] 10:43:46.135 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:43:46.218 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:43:46.267 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:43:46.727 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:43:46.784 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:43:47.401 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@212e39ee
+[INFO ] 10:43:47.404 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:43:47.502 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:43:48.413 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:43:48.416 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:43:48.456 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 10:43:48.457 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[WARN ] 10:43:48.868 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 10:43:48.869 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:43:48.874 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 10:43:48.881 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 10:43:48.883 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 10:43:48.898 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 10:43:48.924 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:101)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 10:46:28.278 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:46:28.412 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 20368 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:46:28.509 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:46:30.508 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:46:30.731 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 201 ms. Found 1 JPA repository interface.
+[INFO ] 10:46:32.022 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:46:32.044 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:46:32.049 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:46:32.050 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:46:32.256 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:46:32.258 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3663 ms
+[INFO ] 10:46:32.897 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:46:33.051 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:46:33.159 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:46:33.849 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:46:33.933 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:46:35.023 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@61d011e
+[INFO ] 10:46:35.028 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:46:35.174 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:46:37.065 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:46:37.072 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:46:37.135 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 10:46:37.157 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 10:46:37.158 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 10:46:37.160 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_ANOTHER_FUNC, handler=anotherHandler
+[INFO ] 10:46:37.160 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 2∞≥
+[INFO ] 10:46:37.161 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ øœ∑·
+[WARN ] 10:46:37.918 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:46:38.950 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:46:39.031 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:46:39.068 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 11.866 seconds (process running for 15.509)
+[INFO ] 10:49:28.422 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:49:28.521 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 28176 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:49:28.523 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:49:30.198 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:49:30.367 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 146 ms. Found 1 JPA repository interface.
+[INFO ] 10:49:31.692 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:49:31.713 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:49:31.717 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:49:31.718 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:49:31.900 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:49:31.901 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3312 ms
+[INFO ] 10:49:32.237 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:49:32.336 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:49:32.408 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:49:32.872 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:49:32.934 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:49:33.220 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@644947ee
+[INFO ] 10:49:33.223 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:49:33.321 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:49:34.224 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:49:34.231 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:49:34.292 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 10:49:34.336 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 10:49:34.337 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 10:49:34.338 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_ANOTHER_FUNC, handler=anotherHandler
+[INFO ] 10:49:34.338 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 2∞≥
+[INFO ] 10:49:34.339 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ øœ∑·
+[WARN ] 10:49:34.865 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:49:35.603 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:49:35.649 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:49:35.667 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.021 seconds (process running for 11.8)
+[INFO ] 10:53:31.214 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:53:31.347 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 1196 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:53:31.354 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:53:33.610 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:53:33.778 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interface.
+[INFO ] 10:53:35.066 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:53:35.094 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:53:35.099 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:53:35.100 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:53:35.296 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:53:35.297 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3841 ms
+[INFO ] 10:53:35.718 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:53:35.844 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:53:35.924 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:53:36.511 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:53:36.567 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:53:36.945 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4c41a177
+[INFO ] 10:53:36.949 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:53:37.072 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:53:38.210 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:53:38.215 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:53:38.251 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 10:53:38.253 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 10:53:38.265 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 10:53:38.266 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 10:53:38.267 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_ANOTHER_FUNC, handler=anotherHandler
+[INFO ] 10:53:38.267 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 2∞≥
+[INFO ] 10:53:38.268 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ øœ∑·
+[WARN ] 10:53:38.792 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:53:39.510 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:53:39.564 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:53:39.580 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 9.438 seconds (process running for 13.885)
+[INFO ] 11:21:43.073 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:21:43.124 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 17632 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:21:43.124 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:21:44.075 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:21:44.180 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+[INFO ] 11:21:44.884 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:21:44.895 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:21:44.897 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:21:44.897 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:21:44.983 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:21:44.983 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1814 ms
+[INFO ] 11:21:45.164 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:21:45.233 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:21:45.273 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:21:45.611 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:21:45.650 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:21:45.973 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3d3b272a
+[INFO ] 11:21:45.975 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:21:46.043 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:21:47.043 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:21:47.046 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:21:47.090 j.j.c.s.c.JCoSapRfcConnection - SAP Ïó∞Í≤∞ ÌîÑÎ°úÌçºÌã∞: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:21:47.091 j.j.c.s.c.JCoSapRfcConnection - SAP RFC Ïó∞Í≤∞ Ï¥àÍ∏∞Ìôî ÏãúÏûë...
+[WARN ] 11:22:56.326 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m10s243ms888¬µs700ns).
+[WARN ] 11:25:42.739 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s287ms680¬µs).
+[INFO ] 11:25:42.750 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë...
+[INFO ] 11:25:42.751 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 11:25:42.751 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: function=ZFI_ANOTHER_FUNC, handler=anotherHandler
+[INFO ] 11:25:42.752 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: Ï¥ù 2Í∞ú
+[INFO ] 11:25:42.753 j.j.c.s.c.JCoSapRfcConnection - SAP RFC Ïó∞Í≤∞ Ï¥àÍ∏∞Ìôî ÏôÑÎ£å
+[WARN ] 11:25:43.009 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:25:43.296 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:25:43.314 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 11:25:43.319 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 240.742 seconds (process running for 243.731)
+[INFO ] 11:30:41.806 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:30:41.933 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 21992 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:30:41.936 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:30:44.261 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:30:44.470 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 191 ms. Found 1 JPA repository interface.
+[INFO ] 11:30:45.905 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:30:45.931 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:30:45.935 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:30:45.936 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:30:46.234 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:30:46.235 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4184 ms
+[INFO ] 11:30:46.838 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:30:47.041 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:30:47.129 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:30:47.980 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:30:48.108 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:30:49.062 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@71668a67
+[INFO ] 11:30:49.072 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:30:49.249 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:30:50.886 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:30:50.893 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:30:51.001 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:30:51.003 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 11:30:51.024 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 11:30:51.025 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 11:30:51.028 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_ANOTHER_FUNC, handler=anotherHandler
+[INFO ] 11:30:51.030 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 2∞≥
+[INFO ] 11:30:51.032 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 11:30:51.033 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:30:52.002 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 11:30:52.005 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_ANOTHER_FUNC
+[ERROR] 11:30:52.007 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ ¡ﬂ ø¿∑˘ πﬂª˝: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[WARN ] 11:30:52.035 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 11:30:52.037 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:30:52.045 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:30:52.053 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:30:52.058 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:30:52.092 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 11:30:52.146 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 11:32:42.827 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:32:42.968 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 24712 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:32:42.971 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:32:45.870 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:32:46.540 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 641 ms. Found 1 JPA repository interface.
+[INFO ] 11:32:48.029 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:32:48.053 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:32:48.058 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:32:48.059 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:32:48.445 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:32:48.446 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5384 ms
+[INFO ] 11:32:49.076 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:32:49.439 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:32:49.566 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:32:50.275 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:32:50.362 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:32:50.811 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5c60c08
+[INFO ] 11:32:50.819 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:32:50.961 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:32:53.407 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:32:53.415 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:32:53.477 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:32:53.479 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 11:32:53.506 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 11:32:53.508 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 11:32:53.509 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 1∞≥
+[INFO ] 11:32:53.510 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 11:32:53.511 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:32:54.599 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_TAXINV_STATUS_TO_WEB
+[ERROR] 11:32:54.601 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ ¡ﬂ ø¿∑˘ πﬂª˝: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[WARN ] 11:32:54.615 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 11:32:54.616 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:32:54.620 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:32:54.628 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:32:54.631 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:32:54.647 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 11:32:54.674 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 11:34:41.029 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:34:41.151 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 1972 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:34:41.154 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:34:43.474 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:34:43.766 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 275 ms. Found 1 JPA repository interface.
+[INFO ] 11:34:44.987 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:34:45.009 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:34:45.013 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:34:45.014 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:34:45.343 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:34:45.344 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4109 ms
+[INFO ] 11:34:45.822 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:34:45.960 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:34:46.046 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:34:46.812 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:34:46.893 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:34:47.965 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@5a6efe33
+[INFO ] 11:34:47.971 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:34:48.097 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:34:49.464 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:34:49.470 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:34:49.512 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:34:49.514 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 11:34:49.526 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 11:34:49.527 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 11:34:49.528 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 1∞≥
+[INFO ] 11:34:49.528 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 11:34:49.529 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:34:49.930 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_TAXINV_STATUS_TO_WEB
+[ERROR] 11:34:49.932 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ ¡ﬂ ø¿∑˘ πﬂª˝: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[WARN ] 11:34:49.977 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 11:34:49.978 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:34:49.982 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:34:49.989 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:34:49.992 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:34:50.010 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 11:34:50.042 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 11:37:05.545 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:37:05.652 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 26112 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:37:05.655 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:37:07.686 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:37:07.859 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 1 JPA repository interface.
+[INFO ] 11:37:08.972 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:37:08.994 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:37:08.998 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:37:08.999 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:37:09.151 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:37:09.152 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3394 ms
+[INFO ] 11:37:09.463 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:37:09.579 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:37:09.649 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:37:10.791 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:37:10.853 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:37:11.215 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2d3b0978
+[INFO ] 11:37:11.218 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:37:11.328 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:37:12.542 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:37:12.547 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:37:12.578 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:37:12.580 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 11:37:12.590 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 11:37:12.591 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 11:37:12.592 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 1∞≥
+[INFO ] 11:37:12.593 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 11:37:12.593 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL
+[INFO ] 11:37:13.071 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_TAXINV_STATUS_TO_WEB
+[ERROR] 11:37:13.072 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ ¡ﬂ ø¿∑˘ πﬂª˝: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[WARN ] 11:37:13.089 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 11:37:13.090 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:37:13.095 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 11:37:13.101 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 11:37:13.104 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 11:37:13.116 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 11:37:13.140 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: com.sap.conn.jco.JCoRuntimeException: Unable to start the server due to wrong configuration: connection count [0] is invalid (allowed range is [1..100])
+	at com.sap.conn.jco.rt.DefaultServer.checkRuntimeConfiguration(DefaultServer.java:723)
+	at com.sap.conn.jco.rt.DefaultServer.start(DefaultServer.java:767)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.startRfcServer(JCoSapRfcConnection.java:138)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:57)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 12:13:19.482 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 12:13:19.583 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 27708 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 12:13:19.585 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 12:13:22.707 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 12:13:22.832 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+[INFO ] 12:13:23.941 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 12:13:23.956 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 12:13:23.959 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 12:13:23.959 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 12:13:24.069 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 12:13:24.070 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4412 ms
+[INFO ] 12:13:24.405 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 12:13:24.560 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 12:13:24.659 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 12:13:25.309 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 12:13:25.401 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 12:13:26.671 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@79617c3d
+[INFO ] 12:13:26.686 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 12:13:26.792 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 12:13:27.885 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 12:13:27.890 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 12:13:27.953 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL, serverName=SERVER
+[INFO ] 12:13:27.956 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 12:13:27.972 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 12:13:27.973 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 12:13:27.973 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 1∞≥
+[INFO ] 12:13:27.974 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 12:13:27.975 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL, serverName=SERVER
+[INFO ] 12:13:32.053 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 12:13:32.066 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° ¡§ªÛ¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. (programId=QH_SED, serverName=SERVER)
+[INFO ] 12:13:32.067 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ øœ∑·
+[WARN ] 12:13:32.640 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 12:13:33.676 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 12:13:33.818 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 12:13:33.878 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 15.737 seconds (process running for 20.959)
+[INFO ] 12:14:39.932 j.j.c.s.c.h.TaxInvoiceStateHandler - [RFC] TaxInvoiceStateHandler »£√‚µ : ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 13:25:13.315 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 13:25:13.437 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 21404 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 13:25:13.440 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 13:25:15.540 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 13:25:15.810 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 248 ms. Found 1 JPA repository interface.
+[INFO ] 13:25:17.166 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 13:25:17.190 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 13:25:17.196 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 13:25:17.197 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 13:25:17.508 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 13:25:17.510 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3990 ms
+[INFO ] 13:25:17.882 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 13:25:18.032 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 13:25:18.131 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 13:25:18.773 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 13:25:18.844 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 13:25:19.465 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@131d977f
+[INFO ] 13:25:19.471 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 13:25:19.643 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 13:25:20.903 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 13:25:20.957 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 13:25:21.046 j.j.c.s.c.JCoSapRfcConnection - SAP ø¨∞· «¡∑Œ∆€∆º: host=192.168.110.203, sysnr=0, client=300, user=PBILLRFC, passwd=rfcpbill, lang=KO, gatewayHost=192.168.110.203, gatewayService=sapgw00, programId=QH_SED, repositoryDestination=ABAP_AS_WITHOUT_POOL, serverName=SERVER
+[INFO ] 13:25:21.048 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ Ω√¿€...
+[INFO ] 13:25:21.059 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€...
+[INFO ] 13:25:21.061 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 13:25:21.061 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ øœ∑·: √— 1∞≥
+[INFO ] 13:25:21.062 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ Ω√¿€ Ω√µµ...
+[INFO ] 13:25:21.062 j.j.c.s.c.JCoSapRfcConnection - JCoServer º≥¡§: programId=QH_SED, gatewayHost=192.168.110.203, gatewayService=sapgw00, repositoryDestination=ABAP_AS_WITHOUT_POOL, serverName=SERVER
+[INFO ] 13:25:22.171 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ: function=ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 13:25:22.206 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° ¡§ªÛ¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. (programId=QH_SED, serverName=SERVER)
+[INFO ] 13:25:22.207 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ø¨∞· √ ±‚»≠ øœ∑·
+[WARN ] 13:25:23.133 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 13:25:24.527 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 13:25:24.663 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 13:25:24.684 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 12.446 seconds (process running for 16.12)
+[INFO ] 13:25:56.332 j.j.c.s.c.h.TaxInvoiceStateHandler - [RFC] TaxInvoiceStateHandler »£√‚µ : ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 16:34:39.829 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:34:39.988 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 21084 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:34:39.992 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:34:42.471 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:34:42.773 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 224 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:34:43.964 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:34:43.988 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:34:43.992 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:34:43.993 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:34:44.162 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:34:44.164 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4058 ms
+[INFO ] 16:34:44.546 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:34:44.644 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:34:44.707 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:34:45.250 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:34:45.307 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:34:47.502 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@19e801b5
+[INFO ] 16:34:47.539 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:34:47.628 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:34:49.187 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:34:49.194 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:34:50.073 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[ERROR] 16:34:51.251 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ ¡ﬂ ø¿∑˘ πﬂª˝: Server SAP_RFC_SERVER does not exist
+com.sap.conn.jco.JCoException: Server SAP_RFC_SERVER does not exist
+	at com.sap.conn.jco.rt.StandaloneServerFactory.update(StandaloneServerFactory.java:338)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.getServerInstance(StandaloneServerFactory.java:175)
+	at com.sap.conn.jco.server.JCoServerFactory.getServer(JCoServerFactory.java:84)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: java.lang.RuntimeException: File D:\temp\JCoSapRfcLink\.\SAP_RFC_SERVER.jcoServer does not exist. 
+	at com.sap.conn.jco.rt.FileDestinationsDataProvider.loadProperties(FileDestinationsDataProvider.java:91)
+	at com.sap.conn.jco.rt.FileDestinationsDataProvider.getServerProperties(FileDestinationsDataProvider.java:82)
+	at com.sap.conn.jco.rt.StandaloneServerFactory.update(StandaloneServerFactory.java:290)
+	... 30 common frames omitted
+[WARN ] 16:34:51.343 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 16:34:51.344 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:34:51.350 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:34:51.358 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:34:51.362 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 16:34:51.380 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 16:34:51.415 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: jco.jcosaprfclink.exception.BusinessExceptionHandler: null
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 16:37:28.638 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:37:28.749 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 15256 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:37:28.766 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:37:31.571 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:37:31.738 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 152 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:37:32.856 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:37:32.888 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:37:32.891 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:37:32.893 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:37:33.103 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:37:33.104 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4263 ms
+[INFO ] 16:37:33.621 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:37:33.763 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:37:33.860 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:37:34.535 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:37:34.629 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:37:35.248 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@45b27ad3
+[INFO ] 16:37:35.251 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:37:35.353 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:37:36.875 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:37:36.884 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:37:37.701 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:37:38.283 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[ERROR] 16:37:38.284 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø∞° JCoServerFunctionHandler∏¶ ±∏«ˆ«œ¡ˆ æ ¿Ω: taxInvoiceStateHandler
+[INFO ] 16:37:38.310 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:37:38.448 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:37:39.499 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:37:39.549 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:37:39.572 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 12.135 seconds (process running for 15.859)
+[INFO ] 16:44:35.148 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:44:35.262 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 22380 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:44:35.266 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:44:37.161 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:44:37.422 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 244 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:44:38.692 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:44:38.713 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:44:38.717 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:44:38.718 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:44:38.993 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:44:38.994 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3632 ms
+[INFO ] 16:44:39.327 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:44:39.456 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:44:39.535 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:44:40.054 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:44:40.127 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:44:40.958 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3c3ab672
+[INFO ] 16:44:40.961 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:44:41.197 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:44:42.578 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:44:42.584 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:44:43.198 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:44:43.676 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[ERROR] 16:44:43.677 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø∞° JCoServerFunctionHandler∏¶ ±∏«ˆ«œ¡ˆ æ ¿Ω: taxInvoiceStateHandler
+[INFO ] 16:44:43.692 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:44:43.826 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:44:44.762 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:44:44.805 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:44:44.826 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 11.451 seconds (process running for 20.572)
+[INFO ] 16:47:25.643 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:47:25.745 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 9168 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:47:25.748 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:47:27.589 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:47:27.798 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 178 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:47:29.132 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:47:29.154 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:47:29.158 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:47:29.159 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:47:29.346 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:47:29.347 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3531 ms
+[INFO ] 16:47:29.691 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:47:29.805 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:47:29.861 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:47:30.277 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:47:30.332 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:47:31.599 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2152fde5
+[INFO ] 16:47:31.606 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:47:31.697 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:47:32.606 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:47:32.610 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:47:33.057 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:47:33.447 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[ERROR] 16:47:33.448 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø∞° JCoServerFunctionHandler∏¶ ±∏«ˆ«œ¡ˆ æ ¿Ω: taxInvoiceStateHandler
+[INFO ] 16:47:33.457 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:47:33.543 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:47:34.331 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:47:34.376 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:47:34.391 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 9.649 seconds (process running for 14.838)
+[INFO ] 16:49:36.018 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:49:36.138 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 23604 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:49:36.141 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:49:37.860 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:49:38.072 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 186 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:49:39.240 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:49:39.275 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:49:39.280 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:49:39.282 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:49:39.584 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:49:39.586 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3355 ms
+[INFO ] 16:49:39.927 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:49:40.027 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:49:40.091 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:49:40.611 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:49:40.670 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:49:41.069 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@713e7d9a
+[INFO ] 16:49:41.073 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:49:41.177 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:49:42.445 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:49:42.451 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:49:43.090 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:49:43.454 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:49:43.455 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:49:43.466 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:49:43.572 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:49:44.382 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:49:44.423 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:49:44.445 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 9.3 seconds (process running for 11.773)
+[INFO ] 16:56:55.416 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:56:55.542 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 7716 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:56:55.545 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:56:58.212 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:56:58.444 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 203 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:57:00.018 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:57:00.045 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:57:00.050 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:57:00.052 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:57:00.386 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:57:00.388 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4750 ms
+[INFO ] 16:57:00.854 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:57:01.004 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:57:01.092 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:57:01.743 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:57:01.828 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:57:02.315 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@29519337
+[INFO ] 16:57:02.322 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:57:02.462 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:57:04.145 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:57:04.151 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:57:05.087 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:57:05.525 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:57:05.526 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:57:05.537 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:57:05.658 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:57:06.313 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:57:06.352 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:57:06.365 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 12.09 seconds (process running for 17.248)
+[INFO ] 17:07:36.335 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:07:36.387 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 27188 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 17:07:36.388 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:07:37.218 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:07:37.317 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces.
+[INFO ] 17:07:37.864 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:07:37.878 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:07:37.880 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:07:37.881 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:07:37.965 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:07:37.966 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1545 ms
+[INFO ] 17:07:38.142 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:07:38.186 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:07:38.214 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:07:38.464 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:07:38.486 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:07:38.725 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@16949dfa
+[INFO ] 17:07:38.727 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:07:38.782 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:07:39.669 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:07:39.672 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:07:40.049 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤Ñ Ï¥àÍ∏∞Ìôî ÏãúÏûë
+[INFO ] 17:07:57.169 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë
+[INFO ] 17:07:57.169 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 17:07:57.202 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤ÑÍ∞Ä ÏÑ±Í≥µÏ†ÅÏúºÎ°ú ÏãúÏûëÎêòÏóàÏäµÎãàÎã§. Program ID: QH_SED
+[WARN ] 17:07:57.236 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:07:57.487 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:07:57.502 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:07:57.508 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 21.669 seconds (process running for 24.192)
+[INFO ] 17:29:25.841 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:29:25.915 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 17756 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 17:29:25.916 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:29:27.226 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:29:27.440 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 2 JPA repository interfaces.
+[INFO ] 17:29:28.250 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:29:28.266 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:29:28.269 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:29:28.269 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:29:28.424 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:29:28.425 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2459 ms
+[INFO ] 17:29:28.647 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:29:28.741 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:29:28.790 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:29:29.273 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:29:29.327 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:29:29.730 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@71beada8
+[INFO ] 17:29:29.734 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:29:29.826 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:29:31.254 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:29:31.259 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:29:31.712 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤Ñ Ï¥àÍ∏∞Ìôî ÏãúÏûë
+[INFO ] 17:30:00.485 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë
+[INFO ] 17:30:00.485 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 17:30:00.491 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤ÑÍ∞Ä ÏÑ±Í≥µÏ†ÅÏúºÎ°ú ÏãúÏûëÎêòÏóàÏäµÎãàÎã§. Program ID: QH_SED
+[WARN ] 17:30:00.537 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:30:00.969 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:30:00.985 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:30:00.991 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 35.786 seconds (process running for 39.084)

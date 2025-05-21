@@ -1,0 +1,1680 @@
+[INFO ] 08:46:01.277 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 36876 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 08:46:01.281 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 08:46:01.287 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 08:46:05.071 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 08:46:05.200 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 2 JPA repository interfaces.
+[INFO ] 08:46:06.521 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 08:46:06.546 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 08:46:06.549 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 08:46:06.550 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 08:46:06.774 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 08:46:06.775 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5371 ms
+[INFO ] 08:46:07.131 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 08:46:07.254 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 08:46:07.409 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 08:46:08.046 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 08:46:08.111 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 08:46:11.690 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@50f05307
+[INFO ] 08:46:11.693 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 08:46:11.795 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 08:46:12.790 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 08:46:12.792 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 08:46:13.412 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 08:46:14.735 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 08:46:14.736 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 08:46:14.743 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 08:46:14.813 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 08:46:15.613 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 08:46:15.640 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 08:46:15.653 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 17.097 seconds (process running for 37.038)
+[INFO ] 09:15:17.530 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 09:15:17.575 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 32248 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 09:15:17.575 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 09:15:18.503 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 09:15:18.577 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 66 ms. Found 2 JPA repository interfaces.
+[INFO ] 09:15:19.015 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 09:15:19.033 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:15:19.034 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 09:15:19.034 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 09:15:19.095 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 09:15:19.096 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1482 ms
+[INFO ] 09:15:19.195 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 09:15:19.246 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 09:15:19.288 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 09:15:19.535 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 09:15:19.556 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 09:15:19.883 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@362be0cd
+[INFO ] 09:15:19.884 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 09:15:19.929 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 09:15:20.550 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 09:15:20.552 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 09:15:20.788 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤Ñ Ï¥àÍ∏∞Ìôî ÏãúÏûë
+[INFO ] 09:15:55.321 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë
+[INFO ] 09:15:55.321 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÎèÑ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandpler
+[ERROR] 09:15:55.321 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù Ïã§Ìå®: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandpler, error=No bean named 'taxInvoiceStateRfcHandpler' available
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'taxInvoiceStateRfcHandpler' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:977)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1278)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.registerHandlers(JCoSapRfcConnection.java:113)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[INFO ] 09:15:55.323 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å. Îì±Î°ùÎêú Ìï∏Îì§Îü¨: []
+[INFO ] 09:15:55.328 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤ÑÍ∞Ä ÏÑ±Í≥µÏ†ÅÏúºÎ°ú ÏãúÏûëÎêòÏóàÏäµÎãàÎã§. Program ID: QH_SED
+[WARN ] 09:15:55.375 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 09:15:55.677 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 09:15:55.701 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 09:15:55.706 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 38.578 seconds (process running for 40.199)
+[INFO ] 09:16:27.474 o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 09:16:27.600 o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 09:16:27.603 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 09:16:27.603 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 09:16:27.608 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 10:02:51.485 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:02:51.547 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 33204 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:02:51.548 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:02:52.515 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:02:52.598 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+[INFO ] 10:02:53.142 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:02:53.152 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:02:53.154 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:02:53.154 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:02:53.216 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:02:53.216 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1630 ms
+[INFO ] 10:02:53.332 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:02:53.415 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:02:53.454 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:02:53.722 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:02:53.747 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:02:54.185 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7b4619a3
+[INFO ] 10:02:54.186 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:02:54.249 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:02:54.993 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:02:54.995 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:02:55.298 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤Ñ Ï¥àÍ∏∞Ìôî ÏãúÏûë
+[WARN ] 10:03:44.191 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49s899ms85¬µs400ns).
+[INFO ] 10:03:44.563 j.j.c.s.c.JCoSapRfcConnection - RFC Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÏûë
+[INFO ] 10:03:44.563 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏãúÎèÑ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandpler
+[ERROR] 10:03:44.563 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù Ïã§Ìå®: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandpler, error=No bean named 'taxInvoiceStateRfcHandpler' available
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'taxInvoiceStateRfcHandpler' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:977)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1278)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.registerHandlers(JCoSapRfcConnection.java:113)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[INFO ] 10:03:44.581 j.j.c.s.c.JCoSapRfcConnection - Ìï∏Îì§Îü¨ Îì±Î°ù ÏôÑÎ£å. Îì±Î°ùÎêú Ìï∏Îì§Îü¨: []
+[INFO ] 10:03:44.586 j.j.c.s.c.JCoSapRfcConnection - SAP RFC ÏÑúÎ≤ÑÍ∞Ä ÏÑ±Í≥µÏ†ÅÏúºÎ°ú ÏãúÏûëÎêòÏóàÏäµÎãàÎã§. Program ID: QH_SED
+[WARN ] 10:03:44.625 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:03:44.973 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:03:44.992 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:03:44.999 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 54.056 seconds (process running for 55.882)
+[INFO ] 10:08:36.073 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:08:36.169 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 41172 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:08:36.171 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:08:37.875 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:08:37.994 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 108 ms. Found 2 JPA repository interfaces.
+[INFO ] 10:08:38.917 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:08:38.938 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:08:38.940 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:08:38.941 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:08:39.040 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:08:39.041 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2800 ms
+[INFO ] 10:08:39.346 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:08:39.440 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:08:39.501 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:08:39.955 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:08:40.006 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:08:40.427 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@19e801b5
+[INFO ] 10:08:40.429 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:08:40.494 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:08:41.571 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:08:41.576 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:21:27.584 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 10:21:27.973 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 10:21:27.974 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandpler
+[ERROR] 10:21:27.975 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω«∆–: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandpler, error=No bean named 'taxInvoiceStateRfcHandpler' available
+org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'taxInvoiceStateRfcHandpler' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:977)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1382)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1278)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.registerHandlers(JCoSapRfcConnection.java:113)
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+[INFO ] 10:21:27.989 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·. µÓ∑œµ» «⁄µÈ∑Ø: []
+[INFO ] 10:21:27.996 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 10:21:28.099 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:21:28.686 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:21:28.712 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:21:28.724 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 773.52 seconds (process running for 777.136)
+[INFO ] 10:23:30.114 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:23:30.258 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 19836 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:23:30.261 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:23:32.186 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:23:32.409 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 204 ms. Found 2 JPA repository interfaces.
+[INFO ] 10:23:34.100 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:23:34.123 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:23:34.126 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:23:34.127 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:23:34.351 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:23:34.352 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4007 ms
+[INFO ] 10:23:34.781 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:23:34.927 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:23:35.009 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:23:35.641 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:23:35.720 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:23:36.107 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@129b69b2
+[INFO ] 10:23:36.111 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:23:36.236 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:23:37.523 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:23:37.532 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:23:38.175 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 10:23:38.839 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 10:23:38.843 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 10:23:38.844 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 10:23:38.844 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·. µÓ∑œµ» «⁄µÈ∑Ø: [ZFI_TAXINV_STATUS_TO_WEB]
+[INFO ] 10:23:38.856 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 10:23:38.960 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:23:39.672 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:23:39.712 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:23:39.731 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 10.685 seconds (process running for 13.866)
+[INFO ] 10:48:12.987 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 10:48:13.119 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 14316 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 10:48:13.123 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 10:48:15.203 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 10:48:15.341 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 116 ms. Found 2 JPA repository interfaces.
+[INFO ] 10:48:16.580 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 10:48:16.610 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:48:16.615 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 10:48:16.617 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 10:48:16.838 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 10:48:16.839 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3632 ms
+[INFO ] 10:48:17.249 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 10:48:17.482 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 10:48:17.573 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 10:48:18.104 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 10:48:18.177 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 10:48:19.794 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2152fde5
+[INFO ] 10:48:19.798 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 10:48:20.201 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 10:48:21.798 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 10:48:21.989 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 10:48:23.136 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 10:48:23.568 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 10:48:23.569 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 10:48:23.570 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 10:48:23.570 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·. µÓ∑œµ» «⁄µÈ∑Ø: [ZFI_TAXINV_STATUS_TO_WEB]
+[INFO ] 10:48:23.583 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 10:48:23.690 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 10:48:24.574 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 10:48:24.658 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 10:48:24.675 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 12.824 seconds (process running for 18.9)
+[INFO ] 11:08:28.272 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:08:28.376 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 43820 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:08:28.378 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:08:31.433 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:08:31.699 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 241 ms. Found 2 JPA repository interfaces.
+[INFO ] 11:08:33.442 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:08:33.467 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:08:33.471 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:08:33.472 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:08:33.674 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:08:33.675 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5218 ms
+[INFO ] 11:08:34.038 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:08:34.165 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:08:34.236 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:08:34.745 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:08:34.841 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:08:36.261 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@78f5cbc5
+[INFO ] 11:08:36.266 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:08:36.378 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:08:37.562 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:08:37.568 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:08:38.318 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 11:08:39.130 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 11:08:39.131 j.j.c.s.c.JCoSapRfcConnection - º≥¡§µ» «‘ºˆ ∏Ò∑œ: [SapRfcFunctionProperties(name=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler, tables=[T_IF_ZTAXT020])]
+[INFO ] 11:08:39.132 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 11:08:39.132 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ≈∏¿‘: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:08:39.133 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ¿ŒΩ∫≈œΩ∫ ª˝º∫ º∫∞¯: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:08:39.133 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ∏ ø° ¿˙¿Â øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:08:39.140 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler, type=jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:08:39.141 j.j.c.s.c.JCoSapRfcConnection - µÓ∑œµ» «⁄µÈ∑Ø ∏Ò∑œ:
+[INFO ] 11:08:39.141 j.j.c.s.c.JCoSapRfcConnection - - function: ZFI_TAXINV_STATUS_TO_WEB, handler: TaxInvoiceStateHandler$$SpringCGLIB$$0, type: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:08:39.142 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·. µÓ∑œµ» «⁄µÈ∑Ø: [ZFI_TAXINV_STATUS_TO_WEB]
+[INFO ] 11:08:39.148 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 11:08:39.255 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:08:40.008 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:08:40.081 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 11:08:40.094 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 12.885 seconds (process running for 16.734)
+[INFO ] 11:29:52.793 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 11:29:52.937 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 6700 (D:\temp\JCoSapRfcLink\build\classes\java\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 11:29:52.940 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 11:29:54.412 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 11:29:54.577 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 2 JPA repository interfaces.
+[INFO ] 11:29:55.604 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 11:29:55.624 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:29:55.624 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 11:29:55.624 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 11:29:55.771 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 11:29:55.771 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2776 ms
+[INFO ] 11:29:56.046 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 11:29:56.176 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 11:29:56.247 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 11:29:56.789 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 11:29:56.864 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 11:29:57.721 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@70f98f7a
+[INFO ] 11:29:57.721 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 11:29:57.773 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 11:29:58.654 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 11:29:58.654 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 11:29:59.231 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - º≥¡§µ» «‘ºˆ ∏Ò∑œ: [SapRfcFunctionProperties(name=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler, tables=[T_IF_ZTAXT020])]
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ≈∏¿‘: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ¿ŒΩ∫≈œΩ∫ ª˝º∫ º∫∞¯: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ∏ ø° ¿˙¿Â øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateRfcHandler, type=jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - µÓ∑œµ» «⁄µÈ∑Ø ∏Ò∑œ:
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - - function: ZFI_TAXINV_STATUS_TO_WEB, handler: TaxInvoiceStateHandler$$SpringCGLIB$$0, type: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 11:29:59.600 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·. µÓ∑œµ» «⁄µÈ∑Ø: [ZFI_TAXINV_STATUS_TO_WEB]
+[INFO ] 11:29:59.616 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 11:29:59.685 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 11:30:00.349 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 11:30:00.391 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 11:30:00.407 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 8.341 seconds (process running for 11.452)
+[WARN ] 13:30:39.773 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m31s873ms826?s700ns).
+[WARN ] 13:31:30.372 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s853ms575?s).
+[INFO ] 14:43:17.976 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 14:43:18.085 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 13712 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 14:43:18.088 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 14:43:20.227 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:43:20.493 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 251 ms. Found 2 JPA repository interfaces.
+[INFO ] 14:43:21.808 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 14:43:21.831 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:43:21.835 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:43:21.836 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 14:43:22.004 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:43:22.005 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3835 ms
+[INFO ] 14:43:22.375 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 14:43:22.542 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 14:43:22.628 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 14:43:23.250 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 14:43:23.317 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:43:24.218 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@42cfd794
+[INFO ] 14:43:24.222 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:43:24.328 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 14:43:25.786 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 14:43:25.791 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 14:43:26.433 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+[INFO ] 14:43:26.447 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:43:26.453 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:43:26.479 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:43:26.482 o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[INFO ] 14:43:26.501 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 14:43:26.538 o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'JCoSapRfcConnection': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1221)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1122)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:753)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1362)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1351)
+	at jco.jcosaprfclink.JCoSapRfcLinkApplication.main(JCoSapRfcLinkApplication.java:10)
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	TaxInvoiceStateHandler cannot be resolved to a type
+	The method getBean(String) in the type BeanFactory is not applicable for the arguments (Class<TaxInvoiceStateHandler>)
+	TaxInvoiceStateHandler cannot be resolved to a type
+
+	at jco.jcosaprfclink.config.saprfc.connection.JCoSapRfcConnection.initialize(JCoSapRfcConnection.java:86)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:457)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:401)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:219)
+	... 20 common frames omitted
+[INFO ] 14:47:05.732 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 14:47:05.847 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 44624 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 14:47:05.849 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 14:47:07.392 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:47:07.612 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 203 ms. Found 2 JPA repository interfaces.
+[INFO ] 14:47:08.755 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 14:47:08.778 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:47:08.782 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:47:08.783 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 14:47:08.961 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:47:08.962 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3021 ms
+[INFO ] 14:47:09.312 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 14:47:09.451 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 14:47:09.529 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 14:47:10.136 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 14:47:10.203 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:47:11.557 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@340fc1aa
+[INFO ] 14:47:11.562 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:47:11.680 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 14:47:12.966 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 14:47:12.970 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:47:13.630 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 14:47:14.993 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 14:47:15.163 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:47:16.340 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 14:47:16.355 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 14:47:16.361 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:47:16.365 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:47:16.374 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:47:16.399 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 14:47:16.437 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 14:47:42.189 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 14:47:42.304 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 46340 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 14:47:42.307 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 14:47:44.334 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:47:44.631 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 277 ms. Found 2 JPA repository interfaces.
+[INFO ] 14:47:46.374 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 14:47:46.390 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:47:46.393 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:47:46.394 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 14:47:46.710 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:47:46.711 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4300 ms
+[INFO ] 14:47:47.039 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 14:47:47.134 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 14:47:47.194 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 14:47:47.776 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 14:47:47.847 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:47:51.098 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@645d4639
+[INFO ] 14:47:51.103 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:47:51.198 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 14:47:52.545 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 14:47:52.552 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:47:53.235 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 14:47:53.780 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 14:47:53.883 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:47:54.913 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 14:47:54.944 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 14:47:54.948 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:47:54.951 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 14:47:54.959 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 14:47:54.979 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 14:47:55.013 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 14:56:53.852 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 14:56:53.978 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 41324 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 14:56:53.981 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 14:56:55.928 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 14:56:56.114 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 166 ms. Found 2 JPA repository interfaces.
+[INFO ] 14:56:57.205 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 14:56:57.225 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:56:57.228 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 14:56:57.229 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 14:56:57.367 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 14:56:57.368 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3294 ms
+[INFO ] 14:56:57.707 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 14:56:57.848 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 14:56:57.929 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 14:56:58.655 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 14:56:58.746 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 14:57:00.323 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3359c3f6
+[INFO ] 14:57:00.326 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 14:57:00.409 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 14:57:01.987 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 14:57:01.995 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 14:57:02.868 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 14:57:03.482 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 14:57:03.596 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 14:57:04.379 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 14:57:04.423 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 14:57:04.440 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 11.744 seconds (process running for 14.78)
+[INFO ] 15:02:48.289 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:02:48.403 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 37268 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:02:48.405 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:02:49.969 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:02:50.156 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 167 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:02:51.422 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:02:51.450 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:02:51.454 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:02:51.456 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:02:51.719 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:02:51.721 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3240 ms
+[INFO ] 15:02:52.132 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:02:52.269 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:02:52.353 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:02:53.043 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:02:53.150 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:02:57.392 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4392362c
+[INFO ] 15:02:57.397 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:02:57.539 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:02:59.433 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:02:59.439 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:03:00.106 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:03:00.856 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:03:00.977 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:03:01.775 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:03:01.818 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:03:01.834 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 14.554 seconds (process running for 19.108)
+[INFO ] 15:22:31.934 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:22:32.034 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 39788 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:22:32.036 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:22:34.014 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:22:34.209 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 168 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:22:35.519 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:22:35.559 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:22:35.563 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:22:35.617 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:22:35.772 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:22:35.773 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3664 ms
+[INFO ] 15:22:36.116 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:22:36.246 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:22:36.332 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:22:37.037 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:22:37.107 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:22:38.000 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1e258d3b
+[INFO ] 15:22:38.004 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:22:38.123 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:22:39.442 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:22:39.448 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:22:40.091 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:22:40.729 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:22:40.845 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:22:41.724 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:22:41.800 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:22:41.818 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 10.998 seconds (process running for 15.258)
+[INFO ] 15:55:02.962 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 15:55:03.138 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 44872 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 15:55:03.141 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 15:55:05.967 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 15:55:06.314 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 325 ms. Found 2 JPA repository interfaces.
+[INFO ] 15:55:07.584 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 15:55:07.620 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:55:07.624 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 15:55:07.625 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 15:55:07.806 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 15:55:07.808 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4583 ms
+[INFO ] 15:55:08.238 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 15:55:08.375 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 15:55:08.446 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 15:55:09.149 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 15:55:09.224 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 15:55:12.523 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@507f47f9
+[INFO ] 15:55:12.527 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 15:55:12.648 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 15:55:14.246 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 15:55:14.251 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 15:55:14.942 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 15:55:15.624 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 15:55:15.825 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 15:55:16.688 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 15:55:16.738 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 15:55:16.753 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 15.658 seconds (process running for 25.261)
+[INFO ] 16:02:02.540 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:02:02.665 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 44560 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:02:02.669 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:02:04.501 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:02:04.699 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 180 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:02:05.888 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:02:05.920 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:02:05.925 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:02:05.926 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:02:06.259 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:02:06.261 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3508 ms
+[INFO ] 16:02:06.722 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:02:06.874 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:02:06.948 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:02:07.504 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:02:07.563 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:02:09.126 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@351ede23
+[INFO ] 16:02:09.130 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:02:09.248 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:02:10.506 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:02:10.509 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:02:11.091 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:02:11.586 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:02:11.587 j.j.c.s.c.JCoSapRfcConnection - º≥¡§µ» «‘ºˆ ∏Ò∑œ: [SapRfcFunctionProperties(name=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler, tables=null)]
+[INFO ] 16:02:11.588 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:02:11.589 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ≈∏¿‘: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:02:11.590 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ¿ŒΩ∫≈œΩ∫ ª˝º∫ º∫∞¯: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:02:11.591 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ∏ ø° ¿˙¿Â øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:02:11.592 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler, type=jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:02:11.593 j.j.c.s.c.JCoSapRfcConnection - µÓ∑œµ» «⁄µÈ∑Ø ∏Ò∑œ:
+[INFO ] 16:02:11.594 j.j.c.s.c.JCoSapRfcConnection - - function: ZFI_TAXINV_STATUS_TO_WEB, handler: TaxInvoiceStateHandler$$SpringCGLIB$$0, type: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:02:11.639 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:02:11.763 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:02:12.598 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:02:12.647 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 16:02:12.664 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 11.15 seconds (process running for 13.817)
+[INFO ] 16:07:20.072 j.j.c.s.c.handler.RfcLoggingAspect - RFC ø‰√ª Ω√¿€: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler
+[INFO ] 16:07:20.073 j.j.c.s.c.h.TaxInvoiceStateHandler - [TaxInvoiceStateHandler] handleRequest Ω√¿€ - function: ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 16:07:20.080 j.j.service.TaxInvoiceStateService - ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω√¿€
+[INFO ] 16:07:20.105 j.j.service.TaxInvoiceStateService - ø‰√ª µ•¿Ã≈Õ: [{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120258200000001","CORP_BIZ_NO":"1338122865"},{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120258200000002","CORP_BIZ_NO":"1338122865"},{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120248200003496","CORP_BIZ_NO":"1338122865"},{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120248200003498","CORP_BIZ_NO":"1338122865"}]
+[DEBUG] 16:07:20.207 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 16:07:20.706 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 16:07:20.715 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 16:07:20.732 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 16:07:20.771 org.hibernate.SQL - 
+    update
+        s_state_taxinvoice 
+    set
+        updated_at=? 
+    where
+        mgrdoc_no=?
+[DEBUG] 16:07:20.857 org.hibernate.SQL - 
+    update
+        s_state_taxinvoice 
+    set
+        updated_at=? 
+    where
+        mgrdoc_no=?
+[DEBUG] 16:07:20.862 org.hibernate.SQL - 
+    update
+        s_state_taxinvoice 
+    set
+        updated_at=? 
+    where
+        mgrdoc_no=?
+[DEBUG] 16:07:20.866 org.hibernate.SQL - 
+    update
+        s_state_taxinvoice 
+    set
+        updated_at=? 
+    where
+        mgrdoc_no=?
+[WARN ] 16:07:20.915 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª Ω«∆– (¿ÁΩ√µµ 1/3): Connection refused: no further information
+[WARN ] 16:07:21.943 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª Ω«∆– (¿ÁΩ√µµ 2/3): Connection refused: no further information
+[ERROR] 16:07:22.971 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª √÷¡æ Ω«∆–: Connection refused: no further information
+[WARN ] 16:07:23.017 j.j.service.TaxInvoiceStateService - API »£√‚ Ω«∆–, response ∆ƒ¿œ ªÁøÎ: null
+[ERROR] 16:07:23.098 j.j.service.TaxInvoiceStateService - ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ ¡ﬂ ø¿∑˘ πﬂª˝: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 16:07:23.150 j.j.config.aop.TimeTraceAspect - TaxInvoiceStateService.taxinvoiceState(..) - Total time = 3.0690649s
+[ERROR] 16:07:23.151 j.j.c.s.c.h.TaxInvoiceStateHandler - [TaxInvoiceStateHandler] handleRequest øπø‹ πﬂª˝ - function: ZFI_TAXINV_STATUS_TO_WEB
+java.lang.RuntimeException: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	... 52 common frames omitted
+[ERROR] 16:07:23.162 j.j.c.s.c.handler.RfcLoggingAspect - RFC ø‰√ª Ω«∆–: function=ZFI_TAXINV_STATUS_TO_WEB, error=SAP RFC √≥∏Æ ¡ﬂ øπø‹ πﬂª˝: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+java.lang.RuntimeException: SAP RFC √≥∏Æ ¡ﬂ øπø‹ πﬂª˝: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	... 30 common frames omitted
+Caused by: java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	... 52 common frames omitted
+[INFO ] 16:30:03.012 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 16:30:03.171 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 42956 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 16:30:03.174 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 16:30:05.763 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 16:30:05.942 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 164 ms. Found 2 JPA repository interfaces.
+[INFO ] 16:30:07.062 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 16:30:07.118 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 16:30:07.122 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 16:30:07.123 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 16:30:07.299 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 16:30:07.300 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4031 ms
+[INFO ] 16:30:07.698 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 16:30:07.866 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 16:30:07.943 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 16:30:08.585 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 16:30:08.653 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 16:30:11.300 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2adc1e84
+[INFO ] 16:30:11.304 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 16:30:11.414 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 16:30:12.760 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 16:30:12.766 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:30:13.422 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 16:30:14.127 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 16:30:14.128 j.j.c.s.c.JCoSapRfcConnection - º≥¡§µ» «‘ºˆ ∏Ò∑œ: [SapRfcFunctionProperties(name=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler, tables=null)]
+[INFO ] 16:30:14.130 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 16:30:14.130 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ≈∏¿‘: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:30:14.131 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ¿ŒΩ∫≈œΩ∫ ª˝º∫ º∫∞¯: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:30:14.131 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ∏ ø° ¿˙¿Â øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:30:14.132 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler, type=jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:30:14.133 j.j.c.s.c.JCoSapRfcConnection - µÓ∑œµ» «⁄µÈ∑Ø ∏Ò∑œ:
+[INFO ] 16:30:14.134 j.j.c.s.c.JCoSapRfcConnection - - function: ZFI_TAXINV_STATUS_TO_WEB, handler: TaxInvoiceStateHandler$$SpringCGLIB$$0, type: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 16:30:14.144 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 16:30:14.299 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 16:30:15.232 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[WARN ] 16:30:15.247 o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[INFO ] 16:30:15.250 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 16:30:15.256 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 16:30:15.267 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 16:30:15.293 o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[ERROR] 16:30:15.326 o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+[INFO ] 17:31:09.771 o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+[INFO ] 17:31:09.893 j.j.JCoSapRfcLinkApplication - Starting JCoSapRfcLinkApplication using Java 17 with PID 16672 (D:\temp\JCoSapRfcLink\bin\main started by 2023A024 in D:\temp\JCoSapRfcLink)
+[INFO ] 17:31:09.896 j.j.JCoSapRfcLinkApplication - The following 1 profile is active: "test-local"
+[INFO ] 17:31:11.785 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 17:31:11.947 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 149 ms. Found 2 JPA repository interfaces.
+[INFO ] 17:31:12.982 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+[INFO ] 17:31:13.003 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:31:13.008 o.a.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 17:31:13.009 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+[INFO ] 17:31:13.139 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 17:31:13.140 o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3159 ms
+[INFO ] 17:31:13.483 o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 17:31:13.632 org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.13.Final
+[INFO ] 17:31:13.711 o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 17:31:14.317 o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[INFO ] 17:31:14.377 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 17:31:14.729 com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2a99fa07
+[INFO ] 17:31:14.733 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 17:31:14.856 o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.4.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 17:31:15.971 o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 17:31:15.975 o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:31:16.766 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ √ ±‚»≠ Ω√¿€
+[INFO ] 17:31:17.226 j.j.c.s.c.JCoSapRfcConnection - RFC «⁄µÈ∑Ø µÓ∑œ Ω√¿€
+[INFO ] 17:31:17.227 j.j.c.s.c.JCoSapRfcConnection - º≥¡§µ» «‘ºˆ ∏Ò∑œ: [SapRfcFunctionProperties(name=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler, tables=null)]
+[INFO ] 17:31:17.228 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ Ω√µµ: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler
+[INFO ] 17:31:17.229 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ≈∏¿‘: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 17:31:17.229 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ¿ŒΩ∫≈œΩ∫ ª˝º∫ º∫∞¯: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 17:31:17.230 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø ∏ ø° ¿˙¿Â øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 17:31:17.230 j.j.c.s.c.JCoSapRfcConnection - «⁄µÈ∑Ø µÓ∑œ øœ∑·: function=ZFI_TAXINV_STATUS_TO_WEB, handler=taxInvoiceStateHandler, type=jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 17:31:17.231 j.j.c.s.c.JCoSapRfcConnection - µÓ∑œµ» «⁄µÈ∑Ø ∏Ò∑œ:
+[INFO ] 17:31:17.231 j.j.c.s.c.JCoSapRfcConnection - - function: ZFI_TAXINV_STATUS_TO_WEB, handler: TaxInvoiceStateHandler$$SpringCGLIB$$0, type: jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0
+[INFO ] 17:31:17.240 j.j.c.s.c.JCoSapRfcConnection - SAP RFC º≠πˆ∞° º∫∞¯¿˚¿∏∑Œ Ω√¿€µ«æ˙Ω¿¥œ¥Ÿ. Program ID: QH_SED
+[WARN ] 17:31:17.325 o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 17:31:18.143 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+[INFO ] 17:31:18.182 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+[INFO ] 17:31:18.194 j.j.JCoSapRfcLinkApplication - Started JCoSapRfcLinkApplication in 9.163 seconds (process running for 17.168)
+[INFO ] 17:32:49.917 j.j.c.s.c.handler.RfcLoggingAspect - RFC ø‰√ª Ω√¿€: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler
+[INFO ] 17:32:49.918 j.j.c.s.c.h.TaxInvoiceStateHandler - [TaxInvoiceStateHandler] handleRequest Ω√¿€ - function: ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 17:32:49.924 j.j.service.TaxInvoiceStateService - ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω√¿€
+[INFO ] 17:32:49.953 j.j.service.TaxInvoiceStateService - ø‰√ª µ•¿Ã≈Õ: [{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120258200000001","CORP_BIZ_NO":"1338122865"},{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120258200000002","CORP_BIZ_NO":"1338122865"}]
+[DEBUG] 17:32:50.033 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 17:32:50.182 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[WARN ] 17:32:50.218 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª Ω«∆– (¿ÁΩ√µµ 1/3): Connection refused: no further information
+[WARN ] 17:32:51.249 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª Ω«∆– (¿ÁΩ√µµ 2/3): Connection refused: no further information
+[ERROR] 17:32:52.281 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª √÷¡æ Ω«∆–: Connection refused: no further information
+[WARN ] 17:32:52.312 j.j.service.TaxInvoiceStateService - API »£√‚ Ω«∆–, response ∆ƒ¿œ ªÁøÎ: null
+[ERROR] 17:32:52.359 j.j.service.TaxInvoiceStateService - ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ ¡ﬂ ø¿∑˘ πﬂª˝: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 17:32:52.455 j.j.config.aop.TimeTraceAspect - TaxInvoiceStateService.taxinvoiceState(..) - Total time = 2.5290034s
+[ERROR] 17:32:52.456 j.j.c.s.c.h.TaxInvoiceStateHandler - [TaxInvoiceStateHandler] handleRequest øπø‹ πﬂª˝ - function: ZFI_TAXINV_STATUS_TO_WEB
+java.lang.RuntimeException: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	... 52 common frames omitted
+[ERROR] 17:32:52.468 j.j.c.s.c.handler.RfcLoggingAspect - RFC ø‰√ª Ω«∆–: function=ZFI_TAXINV_STATUS_TO_WEB, error=SAP RFC √≥∏Æ ¡ﬂ øπø‹ πﬂª˝: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+java.lang.RuntimeException: SAP RFC √≥∏Æ ¡ﬂ øπø‹ πﬂª˝: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	... 30 common frames omitted
+Caused by: java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	... 52 common frames omitted
+[INFO ] 17:36:20.813 j.j.c.s.c.handler.RfcLoggingAspect - RFC ø‰√ª Ω√¿€: function=ZFI_TAXINV_STATUS_TO_WEB, handler=TaxInvoiceStateHandler
+[INFO ] 17:36:20.813 j.j.c.s.c.h.TaxInvoiceStateHandler - [TaxInvoiceStateHandler] handleRequest Ω√¿€ - function: ZFI_TAXINV_STATUS_TO_WEB
+[INFO ] 17:36:20.814 j.j.service.TaxInvoiceStateService - ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω√¿€
+[INFO ] 17:36:20.814 j.j.service.TaxInvoiceStateService - ø‰√ª µ•¿Ã≈Õ: [{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120248200003496","CORP_BIZ_NO":"1338122865"},{"USER_ID":"hanssem01","MGR_DOC_NO":"XS0120248200003498","CORP_BIZ_NO":"1338122865"}]
+[DEBUG] 17:36:20.817 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 17:36:20.823 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 17:36:20.828 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[DEBUG] 17:36:20.834 org.hibernate.SQL - 
+    select
+        st1_0.mgrdoc_no,
+        st1_0.appr_no,
+        st1_0.channel,
+        st1_0.corp_biz_no,
+        st1_0.created_at,
+        st1_0.doc_type,
+        st1_0.doc_type_nm,
+        st1_0.err_code,
+        st1_0.err_msg,
+        st1_0.result,
+        st1_0.send_dd,
+        st1_0.updated_at,
+        st1_0.user_id 
+    from
+        s_state_taxinvoice st1_0 
+    where
+        st1_0.mgrdoc_no=?
+[WARN ] 17:36:20.842 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª Ω«∆– (¿ÁΩ√µµ 1/3): Connection refused: no further information
+[WARN ] 17:36:21.870 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª Ω«∆– (¿ÁΩ√µµ 2/3): Connection refused: no further information
+[ERROR] 17:36:22.883 jco.jcosaprfclink.utils.HttpUtil - HTTP ø‰√ª √÷¡æ Ω«∆–: Connection refused: no further information
+[WARN ] 17:36:22.883 j.j.service.TaxInvoiceStateService - API »£√‚ Ω«∆–, response ∆ƒ¿œ ªÁøÎ: null
+[ERROR] 17:36:22.888 j.j.service.TaxInvoiceStateService - ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ ¡ﬂ ø¿∑˘ πﬂª˝: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 17:36:22.894 j.j.config.aop.TimeTraceAspect - TaxInvoiceStateService.taxinvoiceState(..) - Total time = 2.0801919s
+[ERROR] 17:36:22.895 j.j.c.s.c.h.TaxInvoiceStateHandler - [TaxInvoiceStateHandler] handleRequest øπø‹ πﬂª˝ - function: ZFI_TAXINV_STATUS_TO_WEB
+java.lang.RuntimeException: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	... 52 common frames omitted
+[ERROR] 17:36:22.901 j.j.c.s.c.handler.RfcLoggingAspect - RFC ø‰√ª Ω«∆–: function=ZFI_TAXINV_STATUS_TO_WEB, error=SAP RFC √≥∏Æ ¡ﬂ øπø‹ πﬂª˝: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+java.lang.RuntimeException: SAP RFC √≥∏Æ ¡ﬂ øπø‹ πﬂª˝: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:53)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.RfcLoggingAspect.logRfcExecution(RfcLoggingAspect.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler$$SpringCGLIB$$0.handleRequest(<generated>)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:1041)
+	at com.sap.conn.jco.rt.DefaultServerWorker$FunctionDispatcher.handleRequest(DefaultServerWorker.java:977)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatchRequest(DefaultServerWorker.java:148)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.dispatchRequest(MiddlewareJavaRfc.java:3685)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcServer.listen(MiddlewareJavaRfc.java:2729)
+	at com.sap.conn.jco.rt.DefaultServerWorker.dispatch(DefaultServerWorker.java:275)
+	at com.sap.conn.jco.rt.DefaultServerWorker.loop(DefaultServerWorker.java:356)
+	at com.sap.conn.jco.rt.DefaultServerWorker.run(DefaultServerWorker.java:232)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.RuntimeException: ºº±›∞ËªÍº≠ ªÛ≈¬ ¡∂»∏ Ω«∆–
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at jco.jcosaprfclink.config.aop.TimeTraceAspect.traceTime(TimeTraceAspect.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:642)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:632)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService$$SpringCGLIB$$0.taxinvoiceState(<generated>)
+	at jco.jcosaprfclink.config.saprfc.connection.handler.TaxInvoiceStateHandler.handleRequest(TaxInvoiceStateHandler.java:49)
+	... 30 common frames omitted
+Caused by: java.lang.ClassCastException: class org.json.simple.JSONObject cannot be cast to class org.json.simple.JSONArray (org.json.simple.JSONObject and org.json.simple.JSONArray are in unnamed module of loader 'app')
+	at jco.jcosaprfclink.utils.JsonPaserUtil.getJsonArrayFromString(JsonPaserUtil.java:84)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.processResponseAndMapToSap(TaxInvoiceStateService.java:91)
+	at jco.jcosaprfclink.service.TaxInvoiceStateService.taxinvoiceState(TaxInvoiceStateService.java:50)
+	... 52 common frames omitted
+[INFO ] 17:36:50.797 o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 17:36:51.044 o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 17:36:51.051 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 17:36:51.053 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 17:36:51.076 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

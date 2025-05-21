@@ -1,0 +1,30 @@
+{
+  "response": [
+    {
+      "channel": "NARINER",
+      "corpBizNo": "1234567890",
+      "userId": "user123",
+      "mgrdocNo": "XS0120248200003498",
+      "result": "SUCCESS",
+      "errCode": "KH_COM_0000",
+      "errMsg": "세금계산서 조회 완료",
+      "issueDd": "20241225",
+      "apprNo": "2024122041000021a0000001",
+      "docState": "31",
+      "docStateNm": "신고완료"
+    },
+    {
+      "channel": "NARINER",
+      "corpBizNo": "1234567890",
+      "userId": "user123",
+      "mgrdocNo": "XS0120248200003499",
+      "result": "FAIL",
+      "errCode": "KH_COM_0001",
+      "errMsg": "세금계산서 조회 실패",
+      "issueDd": "",
+      "apprNo": "",
+      "docState": "",
+      "docStateNm": ""
+    }
+  ]
+} 
