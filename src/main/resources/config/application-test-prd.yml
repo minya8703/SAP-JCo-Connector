@@ -1,10 +1,10 @@
 sap:
   connect:
-    host: 192.168.110.203
+    host: 0.0.0.0
     sysnr: 00
-    client: 300
-    user: PBILLRFC
-    passwd: rfcpbill
+    client: 100
+    user: SAP_USER
+    passwd: SAP_PASSWORD
     lang: KO
 
 # Server
@@ -14,5 +14,5 @@ jco:
     progid: QH_SED
     repository_destination: ABAP_AS_WITHOUT_POOL
     gwserv: sapgw00
-    gwhost: 192.168.110.203
+    gwhost: 0.0.0.0
     thread_count : 5

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JCoSapRfcLinkApplication {
+public class SapJcoConnectorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JCoSapRfcLinkApplication.class, args);
+        SpringApplication.run(SapJcoConnectorApplication.class, args);
     }
 
 }

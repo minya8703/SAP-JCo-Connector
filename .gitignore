@@ -35,3 +35,16 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+logs/
+*.log
+
+### Configuration Files ###
+*.jcoDestination
+*.jcoServer
+dev_jco_rfc.trc
+
+### Environment Variables ###
+.env
+*.env

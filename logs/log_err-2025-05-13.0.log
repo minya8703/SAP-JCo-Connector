@@ -1,7 +1,0 @@
-[ERROR] 16:01:35.155 j.j.service.GetCorpStateService - 에러 오류 코드 : null
-[ERROR] 16:01:35.157 j.j.service.GetCorpStateService - java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
-[ERROR] 16:30:30.428 j.j.service.GetCorpStateService - 에러 오류 코드 : null
-[ERROR] 16:37:49.436 j.j.service.GetCorpStateService - 에러 오류 코드 : null
-[ERROR] 16:37:49.436 j.j.service.GetCorpStateService - java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
-[ERROR] 16:37:49.437 j.j.service.GetCorpStateService - java.lang.NullPointerException: Cannot invoke "Object.toString()" because the return value of "java.util.Map.get(Object)" is null
-[ERROR] 16:40:52.998 j.j.service.GetCorpStateService - 에러 오류 코드 : null

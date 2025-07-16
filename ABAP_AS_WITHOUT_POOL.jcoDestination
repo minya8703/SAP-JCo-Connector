@@ -1,8 +1,8 @@
 #SAP JCo Configuration
 #Mon May 19 15:38:40 KST 2025
 jco.client.lang=KO
-jco.client.passwd=rfcpbill
+jco.client.passwd=SAP_PASSWORD
 jco.client.sysnr=0
-jco.client.client=300
-jco.client.user=PBILLRFC
-jco.client.ashost=192.168.110.203
+jco.client.client=100
+jco.client.user=SAP_USER
+jco.client.ashost=0.0.0.0

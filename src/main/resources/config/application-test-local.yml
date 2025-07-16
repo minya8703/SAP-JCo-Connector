@@ -1,16 +1,16 @@
 sap:
   connect:
     # 기본 연결 설정
-    host: 192.168.110.203
+    host: 0.0.0.0
     sysnr: 00
-    client: 300
-    user: PBILLRFC
-    passwd: rfcpbill
+    client: 100
+    user: SAP_USER
+    passwd: SAP_PASSWORD
     lang: KO
     
     # 서버 설정
     serverName: SERVER
-    gatewayHost: 192.168.110.203
+    gatewayHost: 0.0.0.0
     gatewayService: sapgw00
     programId: QH_SED
     connectionCount: 2
@@ -21,5 +21,3 @@ sap:
 
 api:
   dev_url: http://localhost:8088
-# dev_url: http://192.168.123.102:8088 # 나증
-# dev_url: http://115.71.13.131:8088 # 다우
